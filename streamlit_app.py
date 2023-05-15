@@ -37,7 +37,7 @@ try:
 except URLError as e :
    streamlit.error()
    
-streamlit.stop()
+#streamlit.stop()
 
 
 streamlit.header("The first Load list contains:")
